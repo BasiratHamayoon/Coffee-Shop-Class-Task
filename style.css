@@ -43,3 +43,46 @@ body{
     color: rgb(97, 55, 55);
     font-size: 18px;
 }
+.container-01{
+    width: 100%;
+    height: 500px;
+    display:grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 120px;
+}
+.sub-container-01{
+    padding-left: 100px;
+}
+.sub-container-01 img{
+    position: absolute;
+    margin-left: -270px;
+    margin-top: -60px;
+    z-index: -1;
+}
+.sub-container-01 h1{
+    font-size: 39px;
+}
+.sub-container-01 p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sub-container-01 button{
+    margin-left: 70px;
+    margin-top: 15px;
+    width: 90px;
+    height: 40px;
+    color: rgb(53, 24, 24);
+    background: none;
+    border: 2px solid rgb(53, 24, 24);
+    border-radius: 7px;
+    font-size: 17px;
+}
+.sub-container-01 button:hover{
+    background-color: rgb(53, 24, 24);
+    color: wheat;
+}
+.sub-container-02 img{
+    width: 350px;
+    height: 450px;
+    margin-top: -100px;
+}
